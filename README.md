@@ -14,6 +14,6 @@ How to run the application in you local server:
 	 
 	pip install requirements.txt
  
-	flask run
+	python app.py
 
 3: Open the link: http://127.0.0.1:5000
