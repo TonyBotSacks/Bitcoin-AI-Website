@@ -3,6 +3,8 @@ Welcome to my repository! This application integrates the Yahoo Finance API for 
 How to run the application in you local server:
 
 1: Apply the following commands on your terminal:
+
+	git clone https://github.com/TonyBotSacks/Bitcoin-AI-Website/tree/main
  
 	python -m venv env
 	
