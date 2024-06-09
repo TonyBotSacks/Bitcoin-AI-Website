@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Bitcoin AI</title>
+{% endblock %}
+
+{% block body %}
+<div class="image">
+    <div class="logo">
+        <img src="static/images/bitcoin logo.png" alt="USD">
+    </div>
+    
+    <h2>Bitcoin Prediction</h2>
+    <img src="{{ url_for('static', filename='plots/' ~ plot_filename) }}" alt="Plot">
+    
+    <form action="/restart" method="POST">
+    <button type="restart">Main Page</button>
+    </form>
+
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Bitcoin AI</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <form action="/submit" method="POST">
+        <div class="start">
+            <h2>Start</h2>
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year">
+
+            <label for="month">Month:</label>
+            <input type="text" id="month" name="month">
+
+            <label for="day">Day:</label>
+            <input type="text" id="day" name="day">
+        </div>
+
+        <div class="end">
+            <h2>End</h2>
+
+            <label for="year2">Year:</label>
+            <input type="text" id="year2" name="year2">
+
+            <label for="month2">Month:</label>
+            <input type="text" id="month2" name="month2">
+
+            <label for="day2">Day:</label>
+            <input type="text" id="day2" name="day2">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+{% endblock %}
