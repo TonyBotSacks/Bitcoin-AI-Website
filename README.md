@@ -4,7 +4,7 @@ How to run the application in you local server:
 
 1: Copy this repository on your terminal or command prompt:
 
-	gh repo clone TonyBotSacks/Bitcoin-AI-Website
+	git clone https://github.com/TonyBotSacks/Bitcoin-AI-Website.git
 
 2: Apply the following commands on your terminal:
  
