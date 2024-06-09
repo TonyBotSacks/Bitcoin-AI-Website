@@ -12,7 +12,7 @@ How to run the application in you local server:
 	
 	env/Scripts/activate
 	 
-	pip install requirements.txt
+	pip install -r requirements.txt 
  
 	python app.py
 
