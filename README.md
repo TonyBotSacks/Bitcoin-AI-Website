@@ -1,5 +1,4 @@
-
-
+Welcome to my repository! This application integrates the Yahoo Finance API for Bitcoin and a custom LSTM Bitcoin AI model to predict daily closing prices from specific dates. This is a simple and interesting way to integrate AI into finance, but please note that this model is not suitable for making crypto investments. Beware, stock prices are random and almost impossible to predict consistently. However, it will provide great insights into Bitcoin trends in the future.
 
 How to run the application in you local server:
 
