@@ -12,7 +12,7 @@ How to run the application in you local server:
 	
 	env/Scripts/activate
 	 
-	pip install requirments.txt
+	pip install requirements.txt
  
 	flask run
 
